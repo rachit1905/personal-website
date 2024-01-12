@@ -17,7 +17,7 @@ const About = () => {
         <p>
           I am a high school student at with a passion for coding and
           technology. I have experience in C++, Java and Python. I am also
-          proficient in web dev using HTML,CSS,JS,React and Next.js.
+          proficient in web dev using HTML, CSS, JS, React and Next.js.
         </p>
       </div>
     </section>

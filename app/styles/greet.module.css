@@ -1,15 +1,27 @@
 .span {
-    font-size: 19vw;
-    line-height: 40vh;
+    font-size: 28vh;
+    line-height: 29vh;
+    /* width: 80vw; */
+    min-width: 80vw;
+    width: min-content;
+    font-weight: 600;
+}
+@media (orientation: portrait) {
+    .span {
+        font-size: 25vw;
+    }
 }
 
 .container {
-    max-height: 80vh;
-    margin: 0 10vw;
+    height: 87vh;
+    display: flex;
+    align-items: center;
+    /* height: fit-content; */
+    /* margin: 0 10vw; */
 }
 
 .highlight {
-    /* color : #e76d57; */
+    color : #ffbe98;
     padding: 0;
     margin: 0;
 }

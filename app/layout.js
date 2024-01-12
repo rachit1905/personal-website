@@ -1,7 +1,7 @@
 import { Poppins } from 'next/font/google'
 import './globals.css'
 
-const inter = Poppins({ subsets: ['latin'], weight: "600" })
+const inter = Poppins({ subsets: ['latin'], weight: ["300","400","600"] })
 
 export const metadata = {
   title: 'Meet Rachit',

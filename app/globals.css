@@ -25,3 +25,20 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.site{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color: grey;
+}
+::-webkit-scrollbar{
+  width: 5px;
+  /* border-radius: 10px; */
+  background-color: transparent;
+}

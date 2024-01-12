@@ -4,7 +4,7 @@ import About from "./components/About"
 
 export default function Home() {
   return (
-    <div>
+    <div className="site">
       <Header />
       <Greet />
       <About />
