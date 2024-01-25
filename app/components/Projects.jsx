@@ -7,7 +7,7 @@ import file from "../../public/projectlist.json";
 const Projects = () => {
   let projects = file.data;
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="Projects">
       <span className={styles.heading}>Projects</span>
       <div className={styles.display}>
         {projects.map((project, index) => {
