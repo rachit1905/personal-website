@@ -59,11 +59,10 @@
     /* width: 100%;     */
     /* height: 200px; */
     max-height: 50%;
-    flex-grow: 0.7;
     width: auto;
     object-fit: cover;
     border-radius: 10px;
-    aspect-ratio: 1366/661;
+    /* aspect-ratio: 1366/661; */
     position: relative;
     z-index: 2;
 }

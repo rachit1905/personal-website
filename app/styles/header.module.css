@@ -4,6 +4,11 @@
     padding: 1rem;
     color: black;
 }
+@media screen and (max-width:420px){
+    .contact{
+        padding: 0.25rem 1rem;
+    }
+}
 
 .header {
     max-height: 12vh;
