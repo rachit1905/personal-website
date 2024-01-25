@@ -1,6 +1,7 @@
 import Header from "./components/Header"
 import Greet from "./components/Greet"
 import About from "./components/About"
+import Projects from "./components/Projects"
 import Contact from "./components/Contact"
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <Header />
       <Greet />
       <About />
+      <Projects />
       <Contact/>
     </div>
   )

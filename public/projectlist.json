@@ -1,0 +1,45 @@
+{
+  "data": [
+    {
+      "name": "Chrome Dino Bot",
+      "description": "Python Bot Which Plays Chrome Dino Game Automatically.",
+      "image": "/projects/Chrome_Dino_Bot.png",
+      "width": "1366",
+      "height":"681",
+      "link": "",
+      "tech": ["Python"]
+    },
+    {
+      "name": "UniForum",
+      "description": "Downloadable Real-Time Chat Website Built With Light And Dark Themes And A Unique Avatar For Each User",
+      "image": "/projects/UniForum.png",
+      "width": "1366",
+      "height":"681",
+      "link": "https://github.com/rachit1905/react_web-forum",
+      "tech": [
+        "React",
+        "Node.js",
+        "Firebase",
+        "Google Auth"
+      ]
+    },
+    {
+      "name": "Calculator",
+      "description": "Simple Calculator Built Using React.js",
+      "image": "/projects/react_calculator.png",
+      "width": "1352",
+      "height":"681",
+      "link": "https://github.com/rachit1905/react_calculator",
+      "tech": ["React"]
+    },
+    {
+      "name": "Pepsi Landing Page",
+      "description": "Landing Page For Pepsi Built Using HTML, CSS and JS. Design Was Referenced From Online Sources",
+      "image": "/projects/pepsi_landing_page.png",
+      "width": "1366",
+      "height":"681",
+      "link": "",
+      "tech": ["HTML", "CSS", "JS"]
+    }
+  ]
+}
