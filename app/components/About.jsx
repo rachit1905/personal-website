@@ -11,6 +11,7 @@ const About = () => {
           className={styles.me}
           width="3000"
           height="4000"
+          unoptimized
         ></Image>
       </div>
       <div className={styles.text}>

@@ -18,6 +18,7 @@ const Projects = () => {
                 className={styles.projectImage}
                 width={project.width}
                 height={project.height}
+                unoptimized
               />
               <span className={styles.projectName}>{project.name}</span>
               <span className={styles.projectDescription}>
