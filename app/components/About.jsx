@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section className={styles.container} id="About">
+    <section className={`${styles.container} hide`} id="About">
       <div className={styles.img}>
         <Image
           src="/me3.jpg"

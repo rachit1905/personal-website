@@ -7,7 +7,7 @@ import file from "../../public/projectlist.json";
 const Projects = () => {
   let projects = file.data;
   return (
-    <div className={styles.container} id="Projects">
+    <div className={`${styles.container} hide`} id="Projects">
       <span className={styles.heading}>Projects</span>
       <div className={styles.display}>
         {projects.map((project, index) => {
@@ -18,6 +18,7 @@ const Projects = () => {
                 className={styles.projectImage}
                 width={project.width}
                 height={project.height}
+                priority={true}
                 unoptimized
               />
               <span className={styles.projectName}>{project.name}</span>

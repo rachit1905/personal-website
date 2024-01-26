@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <div className={styles.container} id="Contact">
+    <div className={`${styles.container} hide`} id="Contact">
       <span className={styles.heading}>Want to know more?</span>
       <Link
         href="https://github.com/rachit1905"
@@ -34,7 +34,10 @@ const Contact = () => {
           height={100}
         />
         <span>
-          Mail Me: <span style={{fontWeight:"300", textDecoration:"underline"}}>rachitpagarwal@gmail.com</span>
+          Mail Me:{" "}
+          <span style={{ fontWeight: "300", textDecoration: "underline" }}>
+            rachitpagarwal@gmail.com
+          </span>
         </span>
       </Link>
       {/* <span>OR</span>
