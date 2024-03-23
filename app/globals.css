@@ -58,3 +58,7 @@ body {
 ::-webkit-scrollbar:horizontal {
   display: none;
 }
+
+ul {
+  list-style: inside !important;
+}
