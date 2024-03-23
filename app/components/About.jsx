@@ -16,9 +16,10 @@ const About = () => {
       </div>
       <div className={styles.text}>
         <p>
-          I am a high school student at with a passion for coding and
-          technology. I have experience in C++, Java and Python. I am also
-          proficient in web dev using HTML, CSS, JS, React and Next.js.
+          I am a High School Student with a passion for Coding and Technology. I
+          have experience in C++, Java and Python. I am also proficient in Web
+          Dev using HTML, CSS, JS, React and Next.js. I constantly keep myself
+          updated with the Latest Skills and am keen to Learn new things.
         </p>
       </div>
     </section>
